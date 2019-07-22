@@ -1,0 +1,90 @@
+@import "./base/reset";
+
+@import "./base/fonts";
+
+@import "./base/variables";
+
+@import "./base/mixins";
+
+* {
+  font-family: "Lato", sans-serif !important;
+}
+.ant-btn:hover,
+.ant-btn:focus {
+  color: rgba(0, 0, 0, 0.65);
+  border-color: rgba(0, 0, 0, 0.65);
+}
+.ant-input:hover,
+.ant-input:focus {
+  border-color: rgba(0, 0, 0, 0.65);
+}
+.ant-input:focus {
+  box-shadow: 0 0 0 0.5px rgba(0, 0, 0, 0.65);
+}
+.container {
+  width: 455px;
+  margin: 10px auto;
+}
+.inputField {
+  margin-bottom: 5px;
+}
+.clickable {
+  cursor: pointer;
+}
+.chosengif {
+  position: relative;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background: rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
+  background: lightskyblue;
+  border-radius: 4px;
+}
+.results {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 475px;
+  overflow: auto;
+  .gifHolder {
+    display: flex;
+    width: 220px;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background-color: black;
+    border: 0px solid #d9d9d9;
+    border-radius: 4px;
+    overflow: hidden;
+    // &:nth-child(2n + 0) {
+    //   margin-right: 0;
+    // }
+    img {
+      object-fit: cover;
+    }
+  }
+}
+.scrollWrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-bottom: 5px;
+  -webkit-overflow-scrolling: touch;
+  > * {
+    margin-right: 5px;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
