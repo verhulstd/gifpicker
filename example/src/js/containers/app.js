@@ -13,7 +13,7 @@ class App extends React.Component<Props, State> {
   render() {
     return (
       <>
-        <GifPicker apikey="X30DJ9G0204N" />
+        <GifPicker apikey={process.env.APIKEY} />
       </>
     );
   }
