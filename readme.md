@@ -2,6 +2,8 @@
 
 Easy to implement gifpicker field using the Tenor api.
 
+![alt text](https://raw.githubusercontent.com/verhulstd/gifpicker/npm-library/shot.png "Component screenshot")
+
 ## Install
 
     npm i gifpicker
@@ -13,6 +15,7 @@ or
 ## Usage
 
 import GifPicker from 'gifpicker';
+import "gifpicker/dist/style.css";
 
     <GifPicker apikey="XXXXXXXXX" />
 
