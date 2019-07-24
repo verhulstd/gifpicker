@@ -12,10 +12,12 @@ or
 
     yarn add gifpicker
 
-## Usage
+## Import
 
-import GifPicker from 'gifpicker';
-import "gifpicker/dist/style.css";
+    import GifPicker from 'gifpicker';
+    import "gifpicker/dist/style.css";
+
+## Usage
 
     <GifPicker apikey="XXXXXXXXX" />
 
