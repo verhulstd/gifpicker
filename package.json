@@ -1,6 +1,6 @@
 {
   "name": "gifpicker",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "description": "Easy to implement gifpicker field with searchsuggestions using the Tenor api.",
   "main": "dist/index.js",
   "scripts": {
@@ -78,7 +78,6 @@
   },
   "dependencies": {
     "@babel/plugin-transform-flow-strip-types": "^7.4.4",
-    "antd": "^3.20.5",
     "axios": "^0.18.0",
     "randomcolor": "^0.5.4",
     "react-redux": "^6.0.1",

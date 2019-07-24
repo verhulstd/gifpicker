@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2019 by original authors @ fontello.com</metadata>
+<defs>
+<font id="icons" horiz-adv-x="1000" >
+<font-face font-family="icons" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="search" unicode="&#xe800;" d="M0-41q0 47 33 80l260 260q-43 82-43 176 0 154 109 265t266 110 266-110 109-266-109-265-266-109q-94 0-176 43l-260-260q-33-33-80-33-45 0-77 32t-32 77z m55 1q0-22 16-39t39-16 40 17l252 252q-45 33-78 78l-252-252q-17-17-17-40z m258 515q0-129 91-221t221-91 221 91 91 221-91 221-221 91-221-91-91-221z m93 0q0 90 65 154t154 65q16 0 16-16t-16-16q-78 0-133-54t-54-133q0-16-16-16t-16 16z" horiz-adv-x="1000" />
+
+<glyph glyph-name="cancel-circled-outline" unicode="&#xe801;" d="M469 819q194 0 331-137t138-332-138-331-331-138-331 138-138 331 138 332 331 137z m0-834q151 0 258 107t107 258-107 258-258 107-258-107-107-258 107-258 258-107z m36 365l139-137q12-13 5-29t-24-16q-11 0-19 7l-137 139-138-139q-7-7-18-7-17 0-24 16t5 29l139 137-139 138q-18 17 1 36t36 1l138-138 137 138q18 18 37-1t1-36z" horiz-adv-x="938" />
+</font>
+</defs>
+</svg>
