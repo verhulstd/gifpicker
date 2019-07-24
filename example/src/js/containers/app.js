@@ -1,6 +1,7 @@
 // @flow
 import * as React from 'react';
 import GifPicker from '../../../../lib/index';
+import '../../../../dist/style.css';
 
 type Props = {};
 type State = {};

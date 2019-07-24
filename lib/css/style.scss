@@ -6,6 +6,8 @@
 
 @import "./base/mixins";
 
+@import "../../node_modules/antd/dist/antd.css";
+
 * {
   font-family: "Lato", sans-serif !important;
 }
@@ -30,6 +32,7 @@
 }
 .clickable {
   cursor: pointer;
+  background-color: #000;
 }
 .chosengif {
   position: relative;
