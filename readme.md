@@ -1,8 +1,12 @@
 # React gifpicker component
 
-Easy to implement gifpicker field using the Tenor api.
+Easy to implement gifpicker field with searchsuggestions using the Tenor api.
 
 ![alt text](https://raw.githubusercontent.com/verhulstd/gifpicker/npm-library/shot.png "Component screenshot")
+
+## Prerequisite
+
+Request a free api key @ https://tenor.com/gifapi/documentation
 
 ## Install
 

@@ -1,7 +1,7 @@
 {
   "name": "gifpicker",
   "version": "1.0.10",
-  "description": "Easy to implement React GifPicker component using the Tenor api.",
+  "description": "Easy to implement gifpicker field with searchsuggestions using the Tenor api.",
   "main": "dist/index.js",
   "scripts": {
     "start": "parcel watch lib/index.js",
