@@ -3,6 +3,7 @@
   "version": "1.0.15",
   "description": "Easy to implement gifpicker field with searchsuggestions using the Tenor api.",
   "main": "dist/index.js",
+  "homepage": "https://github.com/verhulstd/gifpicker",
   "scripts": {
     "start": "parcel watch lib/index.js",
     "build": "parcel build lib/index.js --global gifpicker",

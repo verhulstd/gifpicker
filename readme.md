@@ -23,7 +23,7 @@ or
 ## Import
 
     import GifPicker from 'gifpicker';
-    import "gifpicker/dist/style.css";
+    import 'gifpicker/dist/style.css';
 
 ## Usage
 
