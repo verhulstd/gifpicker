@@ -1,13 +1,12 @@
 {
   "name": "gifpicker",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Easy to implement gifpicker field with searchsuggestions using the Tenor api.",
   "main": "dist/index.js",
   "scripts": {
     "start": "parcel watch lib/index.js",
     "build": "parcel build lib/index.js --global gifpicker",
     "build:css": "parcel build lib/css/style.scss --public-url ./",
-    "prebuild-demo": "rmdir dist /s /q",
     "start-demo": "parcel example/src/index.html --open",
     "build-demo": "parcel build example/src/index.html --out-dir example/dist --public-url ./",
     "test": "jest",

@@ -4,6 +4,10 @@ Easy to implement gifpicker field with searchsuggestions using the Tenor api.
 
 ![alt text](https://raw.githubusercontent.com/verhulstd/gifpicker/npm-library/shot.png "Component screenshot")
 
+## Demo
+
+https://gif-picker.surge.sh
+
 ## Prerequisite
 
 Request a free api key @ https://tenor.com/gifapi/documentation
