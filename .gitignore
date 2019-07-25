@@ -1,6 +1,5 @@
 .ftpconfig
 .cache
-dist/
 build/
 assets/
 result.html
