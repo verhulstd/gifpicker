@@ -1,6 +1,6 @@
 {
   "name": "gifpicker",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Easy to implement gifpicker field with searchsuggestions using the Tenor api.",
   "main": "dist/index.js",
   "homepage": "https://github.com/verhulstd/gifpicker",
@@ -52,6 +52,8 @@
     "@babel/preset-react": "^7.0.0",
     "autoprefixer": "^9.4.7",
     "babel-eslint": "^9.0.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
     "eslint": "^5.14.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
@@ -86,5 +88,10 @@
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>lib/setupTests.js"
+    ]
   }
 }

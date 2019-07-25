@@ -1,7 +1,7 @@
 # React gifpicker component
 
-[![npm](https://img.shields.io/static/v1?label=npm&message=v1.0.16&color=informational)](https://www.npmjs.com/package/gifpicker)
-[![npm](https://img.shields.io/static/v1?label=minified%20size&message=79,09%20kB&color=success)](https://www.npmjs.com/package/gifpicker)
+[![npm](https://img.shields.io/static/v1?label=npm&message=v1.0.17&color=informational)](https://www.npmjs.com/package/gifpicker)
+[![npm](https://img.shields.io/static/v1?label=minified%20size&message=79,71%20kB&color=success)](https://www.npmjs.com/package/gifpicker)
 
 Easy to implement gifpicker field with searchsuggestions using the Tenor api.
 

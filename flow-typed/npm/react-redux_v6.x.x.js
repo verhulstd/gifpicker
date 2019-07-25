@@ -1,5 +1,5 @@
-// flow-typed signature: b383153ff117bf30b620bae90b126b1a
-// flow-typed version: ffb00c2f5c/react-redux_v7.x.x/flow_>=v0.89.x
+// flow-typed signature: e17f49fe2ed32c1c1d65ca17ec51606c
+// flow-typed version: 72d88e1dff/react-redux_v6.x.x/flow_>=v0.89.x
 
 /**
 The order of type arguments for connect() is as follows:
@@ -27,7 +27,6 @@ Decrypting the abbreviations:
   RMP = Returned merge props
   CP = Props for returned component
   Com = React Component
-  SS = Selected state
   ST = Static properties of Com
   EFO = Extra factory options (used only in connectAdvanced)
 */
@@ -200,19 +199,6 @@ declare module "react-redux" {
   ): Connector<P, OP, P>;
 
   // ------------------------------------------------------------
-  // Typings for Hooks
-  // ------------------------------------------------------------
-
-  declare export function useDispatch<D>(): D;
-
-  declare export function useSelector<S, SS>(
-    selector: (state: S) => SS,
-    equalityFn?: (a: SS, b: SS) => boolean,
-  ): SS;
-
-  declare export function useStore<Store>(): Store;
-
-  // ------------------------------------------------------------
   // Typings for Provider
   // ------------------------------------------------------------
 
@@ -286,8 +272,5 @@ declare module "react-redux" {
     createProvider: typeof createProvider,
     connect: typeof connect,
     connectAdvanced: typeof connectAdvanced,
-    useDispatch: typeof useDispatch,
-    useSelector: typeof useSelector,
-    useStore: typeof useStore,
   };
 }
