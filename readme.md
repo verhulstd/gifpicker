@@ -1,7 +1,7 @@
 # React gifpicker component
 
-[![npm](https://img.shields.io/static/v1?label=npm&message=v1.0.19&color=informational)](https://www.npmjs.com/package/gifpicker)
-[![npm](https://img.shields.io/static/v1?label=minified%20size&message=79,71%20kB&color=success)](https://www.npmjs.com/package/gifpicker)
+[![npm](https://img.shields.io/static/v1?label=npm&message=v1.1.0&color=informational)](https://www.npmjs.com/package/gifpicker)
+[![npm](https://img.shields.io/static/v1?label=minified%20size&message=80,08%20kB&color=success)](https://www.npmjs.com/package/gifpicker)
 
 Easy to implement gifpicker field with searchsuggestions using the Tenor api.
 
@@ -30,8 +30,7 @@ or
 
 ## Usage
 
-    <GifPicker apikey="XXXXXXXXX" />
+1.  add prop apikey
+2.  add prop function onSelect to capture the chosen gifUrl
 
-After searching for a certrain gif a hidden input-field with the name attribute 'tenorgif' is generated
-
-    <input type="hidden" name="tenorgif" value="https://media.tenor.com/images/4f67b48f4938e094532292023a15c632/tenor.gif">
+    <GifPicker apikey="XXXXXXXXX" onSelect={gifUrl => console.log(gifUrl)} />

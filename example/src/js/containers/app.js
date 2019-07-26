@@ -1,20 +1,24 @@
-// @flow
-import * as React from 'react';
+import React from 'react';
 import GifPicker from '../../../../lib/index';
 import '../../../../dist/style.css';
 
-type Props = {};
-type State = {};
-
-class App extends React.Component<Props, State> {
+class App extends React.Component {
   static propTypes = {};
 
-  state = {};
+  constructor(props) {
+    super(props);
+  }
 
   render() {
     return (
       <>
-        <GifPicker apikey={process.env.APIKEY} />
+        <GifPicker
+          apikey={process.env.APIKEY}
+          onSelect={gifUrl => {
+            console.log(gifUrl);
+            console.log(this.gifRef.current);
+          }}
+        />
       </>
     );
   }
