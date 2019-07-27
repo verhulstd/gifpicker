@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/static/v1?label=npm&message=v1.1.0&color=informational)](https://www.npmjs.com/package/gifpicker)
 [![npm](https://img.shields.io/static/v1?label=minified%20size&message=80,08%20kB&color=success)](https://www.npmjs.com/package/gifpicker)
 
-Easy to implement gifpicker field with searchsuggestions using the Tenor api.
+Easy to implement React gifpicker field with searchsuggestions using the Tenor api.
 
 ![alt text](https://raw.githubusercontent.com/verhulstd/gifpicker/npm-library/shot.png "Component screenshot")
 
