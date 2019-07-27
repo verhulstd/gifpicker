@@ -1,6 +1,6 @@
 {
   "name": "gifpicker",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Easy to implement gifpicker field with searchsuggestions using the Tenor api.",
   "main": "dist/index.js",
   "homepage": "https://github.com/verhulstd/gifpicker",
