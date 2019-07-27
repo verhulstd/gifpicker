@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1564253433374" clover="3.2.0">
-  <project timestamp="1564253433374" name="All files">
-    <metrics statements="60" coveredstatements="55" conditionals="10" coveredconditionals="6" methods="34" coveredmethods="29" elements="104" coveredelements="90" complexity="0" loc="60" ncloc="60" packages="2" files="8" classes="8"/>
+<coverage generated="1564258913661" clover="3.2.0">
+  <project timestamp="1564258913662" name="All files">
+    <metrics statements="60" coveredstatements="55" conditionals="10" coveredconditionals="6" methods="34" coveredmethods="30" elements="104" coveredelements="91" complexity="0" loc="60" ncloc="60" packages="2" files="8" classes="8"/>
     <package name="actions">
-      <metrics statements="22" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="9"/>
+      <metrics statements="22" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="10"/>
       <file name="formActions.js" path="C:\Users\User\Desktop\gif-picker\lib\js\actions\formActions.js">
         <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
         <line num="5" count="4" type="stmt"/>
@@ -14,13 +14,13 @@
         <line num="30" count="0" type="stmt"/>
       </file>
       <file name="resultActions.js" path="C:\Users\User\Desktop\gif-picker\lib\js\actions\resultActions.js">
-        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="10" count="4" type="stmt"/>
+        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="4"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
-        <line num="23" count="4" type="stmt"/>
-        <line num="27" count="4" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
       </file>
       <file name="settingsActions.js" path="C:\Users\User\Desktop\gif-picker\lib\js\actions\settingsActions.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
@@ -29,14 +29,14 @@
       </file>
       <file name="types.js" path="C:\Users\User\Desktop\gif-picker\lib\js\actions\types.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="6" type="stmt"/>
-        <line num="3" count="6" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="5" count="6" type="stmt"/>
-        <line num="6" count="6" type="stmt"/>
-        <line num="7" count="6" type="stmt"/>
-        <line num="8" count="6" type="stmt"/>
-        <line num="9" count="6" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="5" count="7" type="stmt"/>
+        <line num="6" count="7" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="7" type="stmt"/>
       </file>
     </package>
     <package name="components">
