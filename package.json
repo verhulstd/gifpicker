@@ -13,7 +13,7 @@
     "prebuild-demo": "rm -r ./example/dist",
     "build-demo": "parcel build example/src/index.html --out-dir example/dist --public-url ./",
     "test": "jest",
-    "test:coverage": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "test:coverage": "jest --coverage",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "view-source-map": "source-map-explorer ./dist/index.js --html result.html",
