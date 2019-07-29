@@ -9,6 +9,7 @@ script:
   - npm run build
   - npm run build:css
   - npm run build-demo
+  - npm run codecov
 deploy:
   provider: surge
   project: ./example/dist/
