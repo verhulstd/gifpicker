@@ -12,7 +12,7 @@
     "start-demo": "parcel example/src/index.html --open",
     "prebuild-demo": "rm -r ./example/dist",
     "build-demo": "parcel build example/src/index.html --out-dir example/dist --public-url ./",
-    "codecov":"codecov --token="7d90a47e-7c02-496e-99a2-d69d452a6eb6",
+    "codecov":"codecov --token=7d90a47e-7c02-496e-99a2-d69d452a6eb6",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "lint": "eslint .",
