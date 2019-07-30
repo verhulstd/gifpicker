@@ -14,5 +14,3 @@ deploy:
   provider: surge
   project: ./example/dist/
   domain: gif-picker.surge.sh
-  on:
-    branch: master
