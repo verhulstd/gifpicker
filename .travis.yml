@@ -12,5 +12,10 @@ script:
   - npm run codecov
 deploy:
   provider: surge
+  skip_cleanup: true
   project: ./example/dist/
   domain: gif-picker.surge.sh
+notifications:
+  email:
+    on_success: info@davidverhulst.be # default: change
+    on_failure: info@davidverhulst.be # default: change
