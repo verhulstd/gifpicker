@@ -1,6 +1,6 @@
 # React gifpicker component
 
-[![npm](https://img.shields.io/static/v1?label=npm&message=v1.1.1&color=informational)](https://www.npmjs.com/package/gifpicker)
+[![npm](https://img.shields.io/static/v1?label=npm&message=v1.1.2&color=informational)](https://www.npmjs.com/package/gifpicker)
 [![npm](https://img.shields.io/static/v1?label=minified%20size&message=80,08%20kB&color=success)](https://www.npmjs.com/package/gifpicker)
 [![codecov](https://codecov.io/gh/verhulstd/gifpicker/branch/master/graph/badge.svg)](https://codecov.io/gh/verhulstd/gifpicker)
 
