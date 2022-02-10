@@ -71,7 +71,7 @@
     "flow-bin": "^0.102.0",
     "jest": "^24.4.0",
     "moxios": "^0.4.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "parcel-bundler": "^1.11.0",
     "prettier": "^1.16.4",
     "react": "^16.8.6",
